@@ -1,3 +1,6 @@
 chromedriver
 test.py
 *.conf
+.vscode/
+*.txt
+__pycache__/
