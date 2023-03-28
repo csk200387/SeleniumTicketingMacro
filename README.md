@@ -16,5 +16,5 @@ from selenium.webdriver.common.by import By
 > 암시적 대기는 즉시 사용할 수 없는 요소를 찾으려고 할 때 웹 드라이버가 일정 시간 동안 DOM을 폴링하도록 지시합니다. 기본 설정은 0(0)입니다. 설정되면 암시적 대기는 WebDriver 객체의 수명 동안 설정됩니다.
 
 
-# 3. .switch_to.frame()
+# 3. switch_to.frame()
 예매창의 페이지 소스를 확인하여 iframe 태그가 존재하는지 확인해야 한다. frame 전환을 하지 않을 경우 Element를 찾지 못한다.
